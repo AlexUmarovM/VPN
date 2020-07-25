@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		398B77570253DD106DFF5CCF /* Pods_VPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FED038F69568C91820989F /* Pods_VPN.framework */; };
 		FAD0326624CC670900A78130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0326524CC670900A78130 /* AppDelegate.swift */; };
 		FAD0326824CC670900A78130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0326724CC670900A78130 /* SceneDelegate.swift */; };
 		FAD0326A24CC670900A78130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0326924CC670900A78130 /* ViewController.swift */; };
 		FAD0326D24CC670900A78130 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD0326B24CC670900A78130 /* Main.storyboard */; };
 		FAD0326F24CC670C00A78130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD0326E24CC670C00A78130 /* Assets.xcassets */; };
 		FAD0327224CC670C00A78130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD0327024CC670C00A78130 /* LaunchScreen.storyboard */; };
+		FAD0327A24CC672B00A78130 /* PurchaseSubscriptionChooseCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0327924CC672B00A78130 /* PurchaseSubscriptionChooseCountryView.swift */; };
+		FAD0327C24CC674900A78130 /* PurchaseSubscriptionOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0327B24CC674900A78130 /* PurchaseSubscriptionOfferView.swift */; };
+		FAD0327E24CC675B00A78130 /* PurchaseSubscriptionMaxUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0327D24CC675B00A78130 /* PurchaseSubscriptionMaxUsersView.swift */; };
+		FAD0328024CC676E00A78130 /* PurchaseSubscriptionOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0327F24CC676E00A78130 /* PurchaseSubscriptionOptionView.swift */; };
+		FAD0328224CC678000A78130 /* PurchaseSubscriptionPeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0328124CC678000A78130 /* PurchaseSubscriptionPeriodView.swift */; };
+		FAD0328424CC678F00A78130 /* PurchaseSubscriptionPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0328324CC678F00A78130 /* PurchaseSubscriptionPriceView.swift */; };
+		FAD0328624CC67A200A78130 /* PurchaseSubscriptionTermsAndDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0328524CC67A200A78130 /* PurchaseSubscriptionTermsAndDetailsView.swift */; };
+		FAD0328824CC67B200A78130 /* PurchaseSubscriptionChoosePlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0328724CC67B200A78130 /* PurchaseSubscriptionChoosePlansView.swift */; };
+		FAD0328A24CC67C600A78130 /* PurchaseSubscriptionChoosePlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0328924CC67C600A78130 /* PurchaseSubscriptionChoosePlanView.swift */; };
+		FAD0328C24CC67D900A78130 /* PurchaseSubscriptionAdvantagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0328B24CC67D900A78130 /* PurchaseSubscriptionAdvantagesView.swift */; };
+		FAD0328F24CC686C00A78130 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FAD0328E24CC686C00A78130 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58FBF5D5AAA6E04DAB2EDFC0 /* Pods-VPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPN.debug.xcconfig"; path = "Target Support Files/Pods-VPN/Pods-VPN.debug.xcconfig"; sourceTree = "<group>"; };
+		8867671022C7FD0188A9825F /* Pods-VPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VPN.release.xcconfig"; path = "Target Support Files/Pods-VPN/Pods-VPN.release.xcconfig"; sourceTree = "<group>"; };
+		B5FED038F69568C91820989F /* Pods_VPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD0326224CC670900A78130 /* VPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD0326524CC670900A78130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD0326724CC670900A78130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,17 @@
 		FAD0326E24CC670C00A78130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD0327124CC670C00A78130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD0327324CC670C00A78130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD0327924CC672B00A78130 /* PurchaseSubscriptionChooseCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionChooseCountryView.swift; sourceTree = "<group>"; };
+		FAD0327B24CC674900A78130 /* PurchaseSubscriptionOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionOfferView.swift; sourceTree = "<group>"; };
+		FAD0327D24CC675B00A78130 /* PurchaseSubscriptionMaxUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionMaxUsersView.swift; sourceTree = "<group>"; };
+		FAD0327F24CC676E00A78130 /* PurchaseSubscriptionOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionOptionView.swift; sourceTree = "<group>"; };
+		FAD0328124CC678000A78130 /* PurchaseSubscriptionPeriodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionPeriodView.swift; sourceTree = "<group>"; };
+		FAD0328324CC678F00A78130 /* PurchaseSubscriptionPriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionPriceView.swift; sourceTree = "<group>"; };
+		FAD0328524CC67A200A78130 /* PurchaseSubscriptionTermsAndDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionTermsAndDetailsView.swift; sourceTree = "<group>"; };
+		FAD0328724CC67B200A78130 /* PurchaseSubscriptionChoosePlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionChoosePlansView.swift; sourceTree = "<group>"; };
+		FAD0328924CC67C600A78130 /* PurchaseSubscriptionChoosePlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionChoosePlanView.swift; sourceTree = "<group>"; };
+		FAD0328B24CC67D900A78130 /* PurchaseSubscriptionAdvantagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSubscriptionAdvantagesView.swift; sourceTree = "<group>"; };
+		FAD0328E24CC686C00A78130 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398B77570253DD106DFF5CCF /* Pods_VPN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71D4B0B6356AB87BFE93FD66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5FED038F69568C91820989F /* Pods_VPN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5DBE77C975503D50D33AAEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58FBF5D5AAA6E04DAB2EDFC0 /* Pods-VPN.debug.xcconfig */,
+				8867671022C7FD0188A9825F /* Pods-VPN.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FAD0325924CC670900A78130 = {
 			isa = PBXGroup;
 			children = (
+				FAD0328E24CC686C00A78130 /* Podfile */,
 				FAD0326424CC670900A78130 /* VPN */,
 				FAD0326324CC670900A78130 /* Products */,
+				F5DBE77C975503D50D33AAEE /* Pods */,
+				71D4B0B6356AB87BFE93FD66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,34 @@
 		FAD0326424CC670900A78130 /* VPN */ = {
 			isa = PBXGroup;
 			children = (
+				FAD0326924CC670900A78130 /* ViewController.swift */,
+				FAD0328D24CC67F000A78130 /* Views */,
 				FAD0326524CC670900A78130 /* AppDelegate.swift */,
 				FAD0326724CC670900A78130 /* SceneDelegate.swift */,
-				FAD0326924CC670900A78130 /* ViewController.swift */,
 				FAD0326B24CC670900A78130 /* Main.storyboard */,
 				FAD0326E24CC670C00A78130 /* Assets.xcassets */,
 				FAD0327024CC670C00A78130 /* LaunchScreen.storyboard */,
 				FAD0327324CC670C00A78130 /* Info.plist */,
 			);
 			path = VPN;
+			sourceTree = "<group>";
+		};
+		FAD0328D24CC67F000A78130 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAD0327924CC672B00A78130 /* PurchaseSubscriptionChooseCountryView.swift */,
+				FAD0327B24CC674900A78130 /* PurchaseSubscriptionOfferView.swift */,
+				FAD0327D24CC675B00A78130 /* PurchaseSubscriptionMaxUsersView.swift */,
+				FAD0327F24CC676E00A78130 /* PurchaseSubscriptionOptionView.swift */,
+				FAD0328324CC678F00A78130 /* PurchaseSubscriptionPriceView.swift */,
+				FAD0328524CC67A200A78130 /* PurchaseSubscriptionTermsAndDetailsView.swift */,
+				FAD0328124CC678000A78130 /* PurchaseSubscriptionPeriodView.swift */,
+				FAD0328924CC67C600A78130 /* PurchaseSubscriptionChoosePlanView.swift */,
+				FAD0328724CC67B200A78130 /* PurchaseSubscriptionChoosePlansView.swift */,
+				FAD0328B24CC67D900A78130 /* PurchaseSubscriptionAdvantagesView.swift */,
+			);
+			name = Views;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD0327624CC670C00A78130 /* Build configuration list for PBXNativeTarget "VPN" */;
 			buildPhases = (
+				5BE0059F44E38643A365AA2E /* [CP] Check Pods Manifest.lock */,
 				FAD0325E24CC670900A78130 /* Sources */,
 				FAD0325F24CC670900A78130 /* Frameworks */,
 				FAD0326024CC670900A78130 /* Resources */,
+				65023973A12F0B1761A27EB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +195,54 @@
 			files = (
 				FAD0327224CC670C00A78130 /* LaunchScreen.storyboard in Resources */,
 				FAD0326F24CC670C00A78130 /* Assets.xcassets in Resources */,
+				FAD0328F24CC686C00A78130 /* Podfile in Resources */,
 				FAD0326D24CC670900A78130 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BE0059F44E38643A365AA2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VPN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65023973A12F0B1761A27EB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VPN/Pods-VPN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VPN/Pods-VPN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VPN/Pods-VPN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAD0325E24CC670900A78130 /* Sources */ = {
@@ -139,7 +250,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAD0326A24CC670900A78130 /* ViewController.swift in Sources */,
+				FAD0328424CC678F00A78130 /* PurchaseSubscriptionPriceView.swift in Sources */,
+				FAD0328A24CC67C600A78130 /* PurchaseSubscriptionChoosePlanView.swift in Sources */,
 				FAD0326624CC670900A78130 /* AppDelegate.swift in Sources */,
+				FAD0328624CC67A200A78130 /* PurchaseSubscriptionTermsAndDetailsView.swift in Sources */,
+				FAD0328C24CC67D900A78130 /* PurchaseSubscriptionAdvantagesView.swift in Sources */,
+				FAD0328024CC676E00A78130 /* PurchaseSubscriptionOptionView.swift in Sources */,
+				FAD0328824CC67B200A78130 /* PurchaseSubscriptionChoosePlansView.swift in Sources */,
+				FAD0327E24CC675B00A78130 /* PurchaseSubscriptionMaxUsersView.swift in Sources */,
+				FAD0327A24CC672B00A78130 /* PurchaseSubscriptionChooseCountryView.swift in Sources */,
+				FAD0328224CC678000A78130 /* PurchaseSubscriptionPeriodView.swift in Sources */,
+				FAD0327C24CC674900A78130 /* PurchaseSubscriptionOfferView.swift in Sources */,
 				FAD0326824CC670900A78130 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +403,13 @@
 		};
 		FAD0327724CC670C00A78130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FBF5D5AAA6E04DAB2EDFC0 /* Pods-VPN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5VM7C6TM4;
 				INFOPLIST_FILE = VPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +423,13 @@
 		};
 		FAD0327824CC670C00A78130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8867671022C7FD0188A9825F /* Pods-VPN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B5VM7C6TM4;
 				INFOPLIST_FILE = VPN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
